@@ -10,7 +10,7 @@
     @vite('resources/css/app.css')
     </head>
     <body>
-
+        
         <nav class="bg-gray-100 shadow-md">
             <div class="container mx-auto px-4">
                 <div class="flex justify-between items-center py-4">
@@ -44,7 +44,6 @@
         </nav>
         
         <div class="container">
-            <h3 class="mt-3 mb-5 text-center">Login - Register Laravel</h3>
 
             @if (session()->has('message'))
                 <div class="row justify-content-center text-center mt-3">
